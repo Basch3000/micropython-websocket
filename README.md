@@ -13,6 +13,6 @@ The differences between the original code and this repo:
 
 What this does:
 
-It creates a WiFi-connection. Connects to the websocket-server and waits for incoming messages, while monitoring an input pin. It also prints the current milliseconds (since 1970) every half a second to verify that the timeout is working properly.
+It creates a WiFi-connection. Connects to the websocket-server and waits for incoming messages, while monitoring an input pin. It also prints the current milliseconds (since 1970) every half a second (and blinks the onboard LED) to verify that the timeout is working properly.
 
 Note that this is just a working example created by a MicroPython beginner (me).
